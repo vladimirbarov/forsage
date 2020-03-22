@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#forsage-main-grid {
+    display: grid;
+    grid-template-areas: 
+    "carusel recognition additional"
+    "carusel overview additional";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 20% 1fr 25%;
+    width: 100%;
+    height: 100vh;
+}
+
+#carusel {
+    grid-area: carusel;
+    border: 1px solid rgb(54, 37, 40);
+}
+
+#recognized-frame {
+    grid-area: recognition;
+    border: 1px solid green;
+}
+
+#overview-frame {
+    grid-area: overview;
+    border: 1px solid blue;
+}
+
+#forsage-additional-grid {
+    grid-area: additional;
+    border: 1px solid yellow;
+}
