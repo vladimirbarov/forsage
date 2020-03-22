@@ -1,0 +1,9 @@
+.carusel-item{
+    margin: 5px 5px 10px 5px;
+    padding: 5px;
+    display: block;
+    border: 1px solid red;
+}
+.carusel-item img{
+    width: 100%;
+}
